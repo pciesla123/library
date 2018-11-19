@@ -88,7 +88,7 @@ public class Main {
                 searchByTitle();
                 break;
             case "3":
-                System.out.println("nie jest jeszcze obsługiwane");
+                searchByAuthor();
                 break;
             case "0":
                 break;
@@ -115,6 +115,10 @@ public class Main {
             }
 
         }
+
+    }
+
+    private static void searchByAuthor() {
 
     }
 
