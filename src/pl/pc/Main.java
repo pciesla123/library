@@ -113,7 +113,6 @@ public class Main {
             if (i == listOfBooks.length - 1 && j == 0) {
                 System.out.println("nie znaleziono książki");
             }
-
         }
 
     }
