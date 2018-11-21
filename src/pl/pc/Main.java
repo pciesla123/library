@@ -82,13 +82,13 @@ public class Main {
 
         switch (choice) {
             case "1":
-                System.out.println("nie jest jeszcze obsługiwane");
+                searchByBookType();
                 break;
             case "2":
                 searchByTitle();
                 break;
             case "3":
-                System.out.println("nie jest jeszcze obsługiwane");
+                searchByAuthor();
                 break;
             case "0":
                 break;
@@ -113,8 +113,16 @@ public class Main {
             if (i == listOfBooks.length - 1 && j == 0) {
                 System.out.println("nie znaleziono książki");
             }
-
         }
+
+    }
+
+    private static void searchByAuthor() {
+
+    }
+    private static void searchByBookType() {
+        System.out.println("Podaj gatunek");
+        String searchBookType = scan.nextLine();
 
     }
 
