@@ -82,7 +82,7 @@ public class Main {
 
         switch (choice) {
             case "1":
-                System.out.println("nie jest jeszcze obsługiwane");
+                searchByBookType();
                 break;
             case "2":
                 searchByTitle();
@@ -119,6 +119,11 @@ public class Main {
     }
 
     private static void searchByAuthor() {
+
+    }
+    private static void searchByBookType() {
+        System.out.println("Podaj gatunek");
+        String searchBookType = scan.nextLine();
 
     }
 
